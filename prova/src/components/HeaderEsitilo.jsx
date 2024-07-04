@@ -3,7 +3,7 @@ function HeaderEstilo(){
         <>
         <header className="cabecalho">
             <img src="./public/senai.png"/>
-            <p>João Vitor, Turma 3B</p>
+            <p>João Guilherme, Turma 3B</p>
         </header>
         </>
     )
