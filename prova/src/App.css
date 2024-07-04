@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+}
+.times {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin: 30px;
+}
+body{
+  background-color: rgb(230, 228, 228);
+}
+.cabecalho img{
+  width: 150px;
+  height: 50px;
+}
+.cabecalho{
+  background-color: lightgray;
+  width: 100%;
+  position: absolute; 
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cabecalho p{
+  font-weight: bold;
+}
