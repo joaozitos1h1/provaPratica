@@ -31,9 +31,12 @@ export default function Clubs() {
       {error && <p>Error: {error.message}</p>}
       {clubs.map(club => (
         <div key={club.id} className="times">
-          <h2>{club.nome}</h2>
-          <img src={club.escudos['60x60']} alt={club.nome} />
-          <p>{club.apelido}</p>
+          <img src={club.escudos['60x60']} alt={club.nome} className='timeescudo' />
+          <div className='nomeapelido'>
+          <h2 className='timenome'>{club.nome}</h2>
+          <p className='timesapleido'>{club.apelido}</p>
+            </div>
+          
         </div>
       ))}
     </main>
